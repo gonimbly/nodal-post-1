@@ -1,0 +1,32 @@
+{
+
+  "migration_id": 2016121918294715,
+
+  "models": {
+
+    "Project": {
+
+      "table": "projects",
+
+      "columns": [
+        {"name": "id", "type": "serial", "properties": {"nullable":false,"primary_key":true,"auto_increment":true}},
+        {"name": "name", "type": "string", "properties": {}},
+        {"name": "contact", "type": "string", "properties": {}},
+        {"name": "list", "type": "string", "properties": {}},
+        {"name": "created_by", "type": "string", "properties": {}},
+        {"name": "billing", "type": "json", "properties": {}},
+        {"name": "due_date", "type": "datetime", "properties": {}},
+        {"name": "manager", "type": "string", "properties": {}},
+        {"name": "completed", "type": "boolean", "properties": {}},
+        {"name": "archived", "type": "boolean", "properties": {}},
+        {"name": "briefing", "type": "text", "properties": {}},
+        {"name": "start_date", "type": "datetime", "properties": {}},
+        {"name": "created_at", "type": "datetime", "properties": {}},
+        {"name": "updated_at", "type": "datetime", "properties": {}}
+      ]
+
+    }
+
+  }
+
+}
